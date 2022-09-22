@@ -45,10 +45,10 @@ header {
 
 
 
-/* Gustavs code*/
 
 
 
+/*white space*/
 section {
   background-color: #ffffff;
   height: 800px;
@@ -57,13 +57,15 @@ section {
 }
 
 
+/* Gustavs code*/
 
 
+
+/*footer section*/
 footer {
   background-color: #d9e4d5;
   height: 600px;
   width: 100%;
-  border: 2px solid black;
   box-sizing: border-box;
 }
 
@@ -88,6 +90,15 @@ footer {
 
 .footer-elements-info {
   width: 390px;
+  align-self: center;
+}
+
+.footer-elements-info h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #648357;
+  
+  font-size: 1.6em;
+  line-height: 1.5;
 }
 
 .footer-elements-info p {
@@ -101,4 +112,11 @@ footer {
 .footer-elements-info button {
   background-color: #14f25d;
   color: #ffffff;
+  font-size: 1.5em;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  
 }
