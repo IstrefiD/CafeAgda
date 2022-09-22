@@ -39,3 +39,66 @@ header {
   width: 100%;
   transform: translateY(20px);
 }
+
+
+
+
+
+
+/* Gustavs code*/
+
+
+
+section {
+  background-color: #ffffff;
+  height: 800px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
+footer {
+  background-color: #d9e4d5;
+  height: 600px;
+  width: 100%;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.footer-elements {
+  max-width: 1400px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-elements-img {
+  background-image: url("../images/Womandrinking.png");
+  background-color: #14f25d;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 100%;
+}
+
+.footer-elements-info {
+  width: 390px;
+}
+
+.footer-elements-info p {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.2;
+  font-weight: 700;
+  font-size: 20px;
+  color: #648357;
+}
+
+.footer-elements-info button {
+  background-color: #14f25d;
+  color: #ffffff;
+}
