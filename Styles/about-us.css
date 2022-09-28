@@ -137,3 +137,9 @@ a:hover {
   line-height: 1.1;
   color: #183529;
 }
+
+.logo_pumpkin {
+  position: absolute;
+  z-index: 1;
+  transform: translateY(-25px);
+}
