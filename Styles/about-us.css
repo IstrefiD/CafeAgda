@@ -149,6 +149,7 @@ a:hover {
 .logo_pumpkin {
   position: absolute;
   z-index: 1;
+  transform: translateY(-30px);
 }
 
 .section-6_products {
