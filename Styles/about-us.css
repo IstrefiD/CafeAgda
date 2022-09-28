@@ -72,6 +72,10 @@ header {
   line-height: 1.4;
   text-align: justify;
 }
+a {
+  text-decoration: none;
+  color: #183529;
+}
 .section-2_title {
   display: flex;
   margin: auto;
@@ -87,9 +91,9 @@ header {
   margin-top: 20px;
   list-style: none;
 }
-.section-2_content li:hover {
+.section-2_content li,
+a:hover {
   color: #14f25d;
-  transform: scale(1.1);
   transition: all 0.2s ease-out;
 }
 .section-3,
@@ -120,7 +124,8 @@ header {
   justify-content: space-between;
 }
 .section-3_product p,
-.section-4_product p {
+.section-4_product p,
+.section-5_product p {
   display: flex;
   justify-content: center;
   font-family: "Value", sans-serif;
