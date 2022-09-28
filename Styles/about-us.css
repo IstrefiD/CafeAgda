@@ -161,7 +161,10 @@ a:hover {
   width: 100%;
 }
 
-.section-3_product {
+.section-3_product,
+.section-4_product,
+.section-5_product,
+.section-6_product {
   position: relative;
   width: 300px;
 }
