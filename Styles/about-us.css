@@ -1,6 +1,7 @@
 header {
   background-color: #d9e4d5;
 }
+
 .header_elements {
   display: flex;
   max-width: 1400px;

@@ -1,6 +1,22 @@
 header {
   background-color: #d9e4d5;
 }
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
 .header_elements {
   display: flex;
   max-width: 1400px;
@@ -40,13 +56,63 @@ header {
   transform: translateY(20px);
 }
 
+/* main */
 
-
-
-
-
-
-
+.section-1 {
+  display: flex;
+  max-width: 1100px;
+  min-height: 600px;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+}
+.section-1_content {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 600px;
+  width: 100%;
+  color: #648357;
+  font-family: "Value", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.section-1_content h1,
+h3 {
+  color: #183529;
+}
+.logo_1_pumpkin {
+  display: flex;
+  position: absolute;
+  left: 14em;
+  top: 0.5em;
+}
+.section-1_button {
+  position: absolute;
+  bottom: 2em;
+  width: 140px;
+  height: 45px;
+  font-family: "Value", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #fff;
+  background-color: #648357;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.section-1_button:hover {
+  background-color: #14f25d;
+  box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 
 /*white space*/
 section {
@@ -56,10 +122,7 @@ section {
   box-sizing: border-box;
 }
 
-
 /* Gustavs code*/
-
-
 
 /*footer section*/
 footer {
@@ -94,15 +157,15 @@ footer {
 }
 
 .footer-elements-info h2 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: #648357;
-  
+
   font-size: 1.6em;
   line-height: 1.5;
 }
 
 .footer-elements-info p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   line-height: 1.2;
   font-weight: 700;
   font-size: 20px;
@@ -118,5 +181,4 @@ footer {
   border-radius: 10px;
   display: inline-block;
   margin-top: 10px;
-  
 }
