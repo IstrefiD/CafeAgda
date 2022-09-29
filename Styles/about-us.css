@@ -145,6 +145,12 @@ a:hover {
   color: #183529;
   opacity: 1;
 }
+.logo_vegan,
+.logo_vegetarian {
+  position: absolute;
+  z-index: 1;
+  transform: translateY(-15px);
+}
 
 .logo_pumpkin {
   position: absolute;
@@ -153,13 +159,13 @@ a:hover {
 }
 @keyframes logo_pumpkin {
   from {
-    transform: scale(1) translateY(-30px);
+    transform: scale(1) translateY(-15px);
   }
   to {
-    transform: scale(1.1) translateY(-30px);
+    transform: scale(1.1) translateY(-15px);
   }
 }
-section-6_products {
+.section-6_products {
   display: flex;
   margin: auto;
   justify-content: space-around;
