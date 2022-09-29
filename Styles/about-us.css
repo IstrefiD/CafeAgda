@@ -149,9 +149,17 @@ a:hover {
 .logo_pumpkin {
   position: absolute;
   z-index: 1;
+  animation: logo_pumpkin 0.9s infinite;
 }
-
-.section-6_products {
+@keyframes logo_pumpkin {
+  from {
+    transform: scale(1) translateY(-30px);
+  }
+  to {
+    transform: scale(1.1) translateY(-30px);
+  }
+}
+section-6_products {
   display: flex;
   margin: auto;
   justify-content: space-around;
