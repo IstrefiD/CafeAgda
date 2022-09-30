@@ -1,6 +1,24 @@
 header {
     background-color: #d9e4d5;
   }
+
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+
   .header_elements {
     display: flex;
     max-width: 1400px;
