@@ -136,6 +136,7 @@ section {
   height: 600px;
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 100px;
 }
 
 .section-2-elements {
@@ -201,10 +202,6 @@ section {
   transform: translateY(-7px);
 }
 
-
-
-
-
 footer {
   background-color: beige;
   height: 180px;
@@ -228,8 +225,6 @@ footer {
   height: 130px;
 }
 
-
-
 .flex-item-2 {
 }
 
@@ -242,8 +237,6 @@ footer {
 
 .flex-item-2 ul {
   transform: translateX(-50px);
-  
-  
 }
 
 .flex-item-2 li {
@@ -252,12 +245,8 @@ footer {
   margin: 1px 10px;
 }
 
-
-
-
 .flex-item-3 {
 }
-
 
 .flex-item-3 p {
   font-family: "Value", sans-serif;
@@ -285,7 +274,6 @@ footer {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
-
 }
 
 .flex-item-3 .form-btn:hover {
