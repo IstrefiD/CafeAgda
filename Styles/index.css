@@ -122,9 +122,6 @@ section {
   box-sizing: border-box;
 }
 
-/* Gustavs code*/
-
-/*footer section*/
 .section-2 {
   background-color: #d9e4d5;
   height: 600px;
@@ -132,7 +129,7 @@ section {
   box-sizing: border-box;
 }
 
-.footer-elements {
+.section-2-elements {
   max-width: 1400px;
   width: 100%;
   height: 100%;
@@ -141,7 +138,7 @@ section {
   justify-content: space-evenly;
 }
 
-.footer-elements-img {
+.section-elements-img {
   background-image: url("../images/Womandrinking.png");
   background-color: #14f25d;
   background-repeat: no-repeat;
@@ -151,34 +148,46 @@ section {
   height: 100%;
 }
 
-.footer-elements-info {
+.section-elements-info {
   width: 390px;
   align-self: center;
 }
 
-.footer-elements-info h2 {
-  font-family: "Roboto Mono", monospace;
-  color: #648357;
-
-  font-size: 1.6em;
-  line-height: 1.5;
+.section-elements-info h2 {
+  font-family: "Value", sans-serif;
+  font-size: 30px;
+  line-height: 1.4;
+  color: #183529;
 }
 
-.footer-elements-info p {
-  font-family: "Roboto Mono", monospace;
-  line-height: 1.2;
-  font-weight: 700;
+.section-elements-info p {
+  color: #648357;
+  font-family: "Value", sans-serif;
   font-size: 20px;
-  color: #648357;
+  line-height: 1.4;
+  text-align: justify;
 }
 
-.footer-elements-info button {
-  background-color: #14f25d;
-  color: #ffffff;
-  font-size: 1.5em;
-  padding: 15px 50px;
+.section-elements-info button {
+  margin-top: 2em;
+  width: 140px;
+  height: 45px;
+  font-family: "Value", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #fff;
+  background-color: #648357;
   border: none;
-  border-radius: 10px;
-  display: inline-block;
-  margin-top: 10px;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.section-elements-info button:hover {
+  background-color: #14f25d;
+  box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
