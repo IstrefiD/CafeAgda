@@ -39,6 +39,15 @@ a:active {
   list-style-type: none;
   padding-left: 0px;
 }
+.header_element_nav li {
+  transition: all 0.2s ease-in-out;
+}
+.header_element_nav li:hover {
+  box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
+  color: #14f25d;
+  transform: translateY(-7px);
+  cursor: pointer;
+}
 .header_element_map {
   display: flex;
   justify-content: space-between;

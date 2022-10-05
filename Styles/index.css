@@ -39,6 +39,15 @@ a:active {
   list-style-type: none;
   padding-left: 0px;
 }
+.header_element_nav li {
+  transition: all 0.2s ease-in-out;
+}
+.header_element_nav li:hover {
+  box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
+  color: #14f25d;
+  transform: translateY(-7px);
+}
+
 .header_element_map {
   display: flex;
   justify-content: space-between;
@@ -186,6 +195,100 @@ section {
   outline: none;
 }
 .section-elements-info button:hover {
+  background-color: #14f25d;
+  box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+
+
+
+footer {
+  background-color: beige;
+  height: 180px;
+}
+
+.footer-flex {
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.flex-item-1 {
+}
+
+.flex-item-1 img {
+  width: 130px;
+  height: 130px;
+}
+
+
+
+.flex-item-2 {
+}
+
+.flex-item-2 p {
+  font-family: "Value", sans-serif;
+  color: #183529;
+  font-size: 20px;
+  line-height: 1px;
+}
+
+.flex-item-2 ul {
+  transform: translateX(-50px);
+  
+  
+}
+
+.flex-item-2 li {
+  display: inline-block;
+  font-size: 35px;
+  margin: 1px 10px;
+}
+
+
+
+
+.flex-item-3 {
+}
+
+
+.flex-item-3 p {
+  font-family: "Value", sans-serif;
+  color: #183529;
+  font-size: 20px;
+  font-weight: bold;
+  transform: translateY(10px);
+  text-indent: 5px;
+}
+
+.flex-item-3 #email {
+  border: 2px solid #183529;
+  padding: 5px 10px;
+  opacity: 0.8;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+.flex-item-3 .form-btn {
+  font-family: "Value", sans-serif;
+  background-color: #183529;
+  color: #d9e4d5;
+  padding: 5px 10px;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+}
+
+.flex-item-3 .form-btn:hover {
   background-color: #14f25d;
   box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
   color: #fff;
