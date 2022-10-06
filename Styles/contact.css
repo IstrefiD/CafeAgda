@@ -235,4 +235,12 @@ iframe {
 
 .icon-list li {
   font-size: 2em;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-list li:hover {
+  box-shadow: 0px 15px 20px rgba(214, 214, 214, 0.4);
+  color: #14f25d;
+  transform: translateY(-7px);
+  cursor: pointer;
 }
